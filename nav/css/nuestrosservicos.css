@@ -1,0 +1,1518 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 90%;
+    max-width: 1100px;
+    height: 100%;
+    max-height: 1100px;
+    margin: auto;
+}
+
+/* header */
+
+.header{
+    background-color: rgb(61, 61, 61);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.barra_navegacion{
+    grid-column: 1/-1;
+    width: 100%;
+    background-color: rgb(61, 61, 61);
+}
+
+
+.navegacion{
+    grid-column: 1/10;
+    background-color: rgb(61, 61, 61);
+}
+
+.navegacion a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(61, 61, 61);
+  }
+
+.navegacion a{
+    float: right;
+
+}
+
+.navegacion ul a{
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+a li:hover{
+    background-color: #e2f798;
+}
+
+
+/*  presentacion */
+
+.presentacion1{
+    background-color: rgb(121, 166, 209);
+}
+
+.nuestrosservicios{
+    grid-column: 2/9;
+}
+
+.nuestrosservicios h1{
+    font-size: 35px;
+    font-weight: 800;
+    padding: 20px;
+    margin: 120px auto 0 0;
+    color: rgb(74, 83, 92);
+    background-color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.subtitulo{
+    grid-column: 2/12;
+}
+
+.subtitulo p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: 0 0 20px 0;
+    color: rgb(99, 103, 107);
+
+}
+
+
+/*  menu */
+
+.servicios{
+    grid-column: 2/-1;
+    margin: 30px auto 20px 0;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(53, 53, 53);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.parrafo2{
+    grid-column: 2/-1;
+}
+
+.parrafo2 p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.titulo_paquete{
+    grid-column: 2/-1;
+}
+
+.titulo_paquete h2{
+    font-size: 30px;
+    margin: 30px auto 10px 0;
+    font-weight: 600;
+    padding: 20px auto 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr{
+    margin: 10px;
+    color: rgb(116, 182, 235);
+}
+
+.todos_servicios1{
+    grid-column: 2/5;
+    margin: 20px 20px 20px 0;
+    text-align: center;
+    color: rgb(53, 53, 53);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todos_servicios1 img{
+    width: 100%;
+}
+
+.todos_servicios2{
+    grid-column: 5/8;
+    margin: 20px;
+    text-align: center;
+    color: rgb(53, 53, 53);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todos_servicios2 img{
+    width: 100%;
+    margin: 4px;
+}
+
+.todos_servicios3{
+    grid-column: 8/11;
+    margin: 20px;
+    text-align: center;
+    color: rgb(53, 53, 53);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todos_servicios3 img{
+    width: 100%;
+    margin: 6px;
+}
+
+.todos_servicios4{
+    grid-column: 3/6;
+    margin: 95px 20px 20px 20px;
+    text-align: center;
+    color: rgb(53, 53, 53);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todos_servicios4 img{
+    width: 100%;
+
+}
+
+.todos_servicios4 h2 {
+    margin-top: 45px;
+}
+
+.todos_servicios5{
+    grid-column: 6/9;
+    margin: 20px;
+    text-align: center;
+    color: rgb(53, 53, 53);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todos_servicios5 img{
+    width: 100%;
+}
+
+
+/* filosofia  */
+
+.subtitulo2{
+    grid-column: 2/-1;
+}
+
+.subtitulo2 h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.beneficios1{
+    grid-column: 2/5;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.beneficios1 h2{
+    text-align: center;
+}
+
+.beneficios2{
+    grid-column: 5/8;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.beneficios2 h2{
+    text-align: center;
+}
+
+.beneficios3{
+    grid-column: 8/11;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.beneficios3 h2{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/*  frase final */
+
+.frasefinal{
+    background-color: rgb(61, 61, 61);
+}
+
+
+.final{
+    grid-column: 2/10;
+}
+
+.final h2{
+    color: white;
+    margin: 30px 0 30px 0;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.postulacion{
+    grid-column: 10/12;
+}
+
+.boton{
+    margin: 40px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(0, 125, 197);
+}
+
+.postilacion .boton:hover{
+    background-color: #e2f798;
+}
+
+
+/* -------------------------------------------- */
+/* -------------- estilos responsive------------ */
+/* ----------------------------------------------- */
+
+
+ @media screen and (min-width: 250px){
+ 
+
+    .navegacion ul a{
+        font-size: 12px;
+        padding: 8px;
+    }
+
+
+
+    /* presentacion */
+
+    .nuestrosservicios{
+        grid-column: 1/-1;
+    }
+
+    .nuestrosservicios h1{
+        font-size: 18px;
+    }
+
+    .subtitulo{
+        grid-column: 1/-1;
+    }
+
+    .subtitulo p{
+        font-size: 13px;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    /* menu */
+
+    /* .menu{
+        height: 1200px;
+    } */
+
+    .servicios{
+        grid-column: 1/-1;
+    }
+
+    .servicios h2{
+        font-size: 23px;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .parrafo2{
+        grid-column: 1/-1;
+    }
+
+    .parrafo2 p{
+        font-size: 12.5px;
+        text-align: justify;
+    }
+
+    .titulo_paquete{
+        grid-column: 1/-1;
+    }
+
+    .titulo_paquete h2{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .todos_servicios1{
+        grid-column: 1/-1;
+        margin: 0;
+    }
+
+    .todos_servicios1 img{
+        width: 70%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .todos_servicios1 h2{
+        font-size: 13px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .todos_servicios2{
+        grid-column: 1/6;
+    }
+
+    .todos_servicios2 img{
+        width: 70%;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .todos_servicios2 h2{
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .todos_servicios3{
+        grid-column: 6/-1;
+    }
+
+    .todos_servicios3 img{
+        width: 70%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .todos_servicios3 h2{
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .todos_servicios4{
+        grid-column: 1/6;
+    }
+
+    .todos_servicios4 img{
+        width: 60%;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .todos_servicios4 h2{
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .todos_servicios5{
+        grid-column: 6/-1;
+    }
+
+    .todos_servicios5 img{
+        width: 65%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .todos_servicios5 h2{
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* filosofia */
+
+   .subtitulo2{
+       grid-column: 1/-1;
+   }
+
+   .subtitulo2 h2{
+       font-size: 20px;
+       text-align: center;
+   }
+
+   .beneficios1{
+       grid-column: 1/-1;
+   }
+
+   .beneficios2{
+    grid-column: 1/-1;
+    }
+
+    .beneficios3{
+    grid-column: 1/-1;
+    }
+
+    .beneficios4{
+        grid-column: 1/-1;
+    }
+
+
+
+
+    /* ------frase final-------- */
+
+    .final{
+        grid-column: 1/-1;
+    }
+
+    .final h2{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .postulacion{
+        grid-column: 2/9;
+        margin: 0 auto 10px 0;
+    }
+
+    .postulacion2{
+        grid-column: 1/-1;
+    }
+    
+    .boton5{
+        margin: 0 auto 30px 40px;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 900;
+        color: white;
+        background-color: rgb(0, 125, 197);
+    }
+    
+    button a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .postilacion2 .boton:hover{
+        background-color: #e2f798;
+    }
+
+
+} 
+
+
+@media screen and (min-width: 768px){
+
+    /* header */
+
+.header{
+    background-color: rgb(61, 61, 61);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.barra_navegacion{
+    grid-column: 1/-1;
+    width: 100%;
+    background-color: rgb(61, 61, 61);
+}
+
+
+.navegacion{
+    grid-column: 1/10;
+    background-color: rgb(61, 61, 61);
+}
+
+.navegacion a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(61, 61, 61);
+  }
+
+.navegacion a{
+    float: right;
+
+}
+
+.navegacion ul a{
+    display: block;
+    font-size: 16px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+a li:hover{
+    background-color: #e2f798;
+}
+
+    
+    /*  presentacion */
+
+.presentacion1{
+    background-color: rgb(121, 166, 209);
+}
+
+.nuestrosservicios{
+    grid-column: 2/9;
+}
+
+.nuestrosservicios h1{
+    font-size: 35px;
+    font-weight: 800;
+    padding: 20px;
+    margin: 120px auto 0 0;
+    color: rgb(74, 83, 92);
+    background-color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.subtitulo{
+    grid-column: 2/12;
+}
+
+.subtitulo p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: 0 0 20px 0;
+    color: rgb(99, 103, 107);
+
+}
+
+
+/*  menu */
+
+.servicios{
+    grid-column: 2/-1;
+    margin: 30px auto 20px 0;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(53, 53, 53);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.parrafo2{
+    grid-column: 2/-1;
+}
+
+.parrafo2 p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.titulo_paquete{
+    grid-column: 2/-1;
+}
+
+.titulo_paquete h2{
+    font-size: 30px;
+    margin: 30px auto 10px 0;
+    font-weight: 600;
+    padding: 20px auto 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr{
+    margin: 10px;
+    color: rgb(116, 182, 235);
+}
+
+.todos_servicios1{
+    grid-column: 2/5;
+    margin: 20px 20px 20px 0;
+    text-align: center;
+    color: rgb(53, 53, 53);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todos_servicios1 img{
+    width: 100%;
+}
+
+.todos_servicios2{
+    grid-column: 5/8;
+    margin: 20px;
+    text-align: center;
+    color: rgb(53, 53, 53);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todos_servicios2 img{
+    width: 100%;
+    margin: 4px;
+}
+
+.todos_servicios3{
+    grid-column: 8/11;
+    margin: 20px;
+    text-align: center;
+    color: rgb(53, 53, 53);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todos_servicios3 img{
+    width: 100%;
+    margin: 6px;
+}
+
+.todos_servicios4{
+    grid-column: 3/6;
+    margin: 95px 20px 20px 20px;
+    text-align: center;
+    color: rgb(53, 53, 53);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todos_servicios4 img{
+    width: 100%;
+
+}
+
+.todos_servicios4 h2 {
+    margin-top: 45px;
+}
+
+.todos_servicios5{
+    grid-column: 6/9;
+    margin: 20px;
+    text-align: center;
+    color: rgb(53, 53, 53);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todos_servicios5 img{
+    width: 100%;
+}
+
+
+/* filosofia  */
+
+.subtitulo2{
+    grid-column: 2/-1;
+}
+
+.subtitulo2 h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.beneficios1{
+    grid-column: 2/5;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.beneficios1 h2{
+    text-align: center;
+}
+
+.beneficios2{
+    grid-column: 5/8;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.beneficios2 h2{
+    text-align: center;
+}
+
+.beneficios3{
+    grid-column: 8/11;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.beneficios3 h2{
+    text-align: center;
+}
+
+
+/*  frase final */
+
+.frasefinal{
+    background-color: rgb(61, 61, 61);
+}
+
+
+.final{
+    grid-column: 2/10;
+}
+
+.final h2{
+    color: white;
+    margin: 30px 0 30px 0;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.postulacion{
+    grid-column: 10/12;
+}
+
+.boton{
+    margin: 40px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(0, 125, 197);
+}
+
+.postilacion .boton:hover{
+    background-color: #e2f798;
+}
+
+.postulacion2{
+    grid-column: 1/-1;
+}
+
+.boton5{
+    margin: 0 auto 30px 40px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(0, 125, 197);
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+.postilacion2 .boton:hover{
+    background-color: #e2f798;
+}
+
+.postulacion2{
+    grid-column: 1/12;
+}
+
+.boton5{
+    margin: 0 auto 30px 40px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(0, 125, 197);
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+.postilacion2 .boton:hover{
+    background-color: #e2f798;
+}
+
+
+}
+
+@media screen and (min-width: 1000px){
+
+   /* header */
+
+.header{
+    background-color: rgb(61, 61, 61);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.barra_navegacion{
+    grid-column: 1/-1;
+    width: 100%;
+    background-color: rgb(61, 61, 61);
+}
+
+
+.navegacion{
+    grid-column: 1/10;
+    background-color: rgb(61, 61, 61);
+}
+
+.navegacion a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(61, 61, 61);
+  }
+
+.navegacion a{
+    float: right;
+
+}
+
+.navegacion ul a{
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+a li:hover{
+    background-color: #e2f798;
+}
+
+    
+    /*  presentacion */
+
+.presentacion1{
+    background-color: rgb(121, 166, 209);
+}
+
+.nuestrosservicios{
+    grid-column: 2/9;
+}
+
+.nuestrosservicios h1{
+    font-size: 35px;
+    font-weight: 800;
+    padding: 20px;
+    margin: 120px auto 0 0;
+    color: rgb(74, 83, 92);
+    background-color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.subtitulo{
+    grid-column: 2/12;
+}
+
+.subtitulo p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: 0 0 20px 0;
+    color: rgb(99, 103, 107);
+
+}
+
+
+/*  menu */
+
+.servicios{
+    grid-column: 2/-1;
+    margin: 30px auto 20px 0;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(53, 53, 53);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.parrafo2{
+    grid-column: 2/-1;
+}
+
+.parrafo2 p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.titulo_paquete{
+    grid-column: 2/-1;
+}
+
+.titulo_paquete h2{
+    font-size: 30px;
+    margin: 30px auto 10px 0;
+    font-weight: 600;
+    padding: 20px auto 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr{
+    margin: 10px;
+    color: rgb(116, 182, 235);
+}
+
+.todos_servicios1{
+    grid-column: 2/5;
+    margin: 20px 20px 20px 0;
+    text-align: center;
+    color: rgb(53, 53, 53);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todos_servicios1 img{
+    width: 100%;
+}
+
+.todos_servicios2{
+    grid-column: 5/8;
+    margin: 20px;
+    text-align: center;
+    color: rgb(53, 53, 53);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todos_servicios2 img{
+    width: 100%;
+    margin: 4px;
+}
+
+.todos_servicios3{
+    grid-column: 8/11;
+    margin: 20px;
+    text-align: center;
+    color: rgb(53, 53, 53);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todos_servicios3 img{
+    width: 100%;
+    margin: 6px;
+}
+
+.todos_servicios4{
+    grid-column: 3/6;
+    margin: 95px 20px 20px 20px;
+    text-align: center;
+    color: rgb(53, 53, 53);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todos_servicios4 img{
+    width: 100%;
+
+}
+
+.todos_servicios4 h2 {
+    margin-top: 45px;
+}
+
+.todos_servicios5{
+    grid-column: 6/9;
+    margin: 20px;
+    text-align: center;
+    color: rgb(53, 53, 53);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todos_servicios5 img{
+    width: 100%;
+}
+
+
+/* filosofia  */
+
+.subtitulo2{
+    grid-column: 2/-1;
+}
+
+.subtitulo2 h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.beneficios1{
+    grid-column: 2/5;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.beneficios1 h2{
+    text-align: center;
+}
+
+.beneficios2{
+    grid-column: 5/8;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.beneficios2 h2{
+    text-align: center;
+}
+
+.beneficios3{
+    grid-column: 8/11;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.beneficios3 h2{
+    text-align: center;
+}
+
+
+/*  frase final */
+
+.frasefinal{
+    background-color: rgb(61, 61, 61);
+}
+
+
+.final{
+    grid-column: 2/10;
+}
+
+.final h2{
+    color: white;
+    margin: 30px 0 30px 0;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.postulacion{
+    grid-column: 10/12;
+}
+
+.boton{
+    margin: 40px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(0, 125, 197);
+}
+
+.postilacion .boton:hover{
+    background-color: #e2f798;
+}
+
+.postulacion2{
+    grid-column: 1/-1;
+}
+
+.boton5{
+    margin: 0 auto 30px 40px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(0, 125, 197);
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+.postilacion2 .boton:hover{
+    background-color: #e2f798;
+}
+
+.postulacion2{
+    grid-column: 9/12;
+}
+
+.boton5{
+    /* margin: 0 auto 30px 40px; */
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(0, 125, 197);
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+.postilacion2 .boton:hover{
+    background-color: #e2f798;
+}
+
+}
+
+
+
+
+@media screen and (min-width: 1200px){
+
+    /* header */
+
+.header{
+    background-color: rgb(61, 61, 61);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.barra_navegacion{
+    grid-column: 1/-1;
+    width: 100%;
+    background-color: rgb(61, 61, 61);
+}
+
+
+.navegacion{
+    grid-column: 1/10;
+    background-color: rgb(61, 61, 61);
+}
+
+.navegacion a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(61, 61, 61);
+  }
+
+.navegacion a{
+    float: right;
+
+}
+
+.navegacion ul a{
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+a li:hover{
+    background-color: #e2f798;
+}
+
+    
+    /*  presentacion */
+
+.presentacion1{
+    background-color: rgb(121, 166, 209);
+}
+
+.nuestrosservicios{
+    grid-column: 2/9;
+}
+
+.nuestrosservicios h1{
+    font-size: 35px;
+    font-weight: 800;
+    padding: 20px;
+    margin: 120px auto 0 0;
+    color: rgb(74, 83, 92);
+    background-color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.subtitulo{
+    grid-column: 2/12;
+}
+
+.subtitulo p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: 0 0 20px 0;
+    color: rgb(99, 103, 107);
+
+}
+
+
+/*  menu */
+
+.servicios{
+    grid-column: 2/-1;
+    margin: 30px auto 20px 0;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(53, 53, 53);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.parrafo2{
+    grid-column: 2/-1;
+}
+
+.parrafo2 p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.titulo_paquete{
+    grid-column: 2/-1;
+}
+
+.titulo_paquete h2{
+    font-size: 30px;
+    margin: 30px auto 10px 0;
+    font-weight: 600;
+    padding: 20px auto 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr{
+    margin: 10px;
+    color: rgb(116, 182, 235);
+}
+
+.todos_servicios1{
+    grid-column: 2/5;
+    margin: 20px 20px 20px 0;
+    text-align: center;
+    color: rgb(53, 53, 53);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todos_servicios1 img{
+    width: 100%;
+}
+
+.todos_servicios2{
+    grid-column: 5/8;
+    margin: 20px;
+    text-align: center;
+    color: rgb(53, 53, 53);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todos_servicios2 img{
+    width: 100%;
+    margin: 4px;
+}
+
+.todos_servicios3{
+    grid-column: 8/11;
+    margin: 20px;
+    text-align: center;
+    color: rgb(53, 53, 53);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todos_servicios3 img{
+    width: 100%;
+    margin: 6px;
+}
+
+.todos_servicios4{
+    grid-column: 3/6;
+    margin: 95px 20px 20px 20px;
+    text-align: center;
+    color: rgb(53, 53, 53);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todos_servicios4 img{
+    width: 100%;
+
+}
+
+.todos_servicios4 h2 {
+    margin-top: 45px;
+}
+
+.todos_servicios5{
+    grid-column: 6/9;
+    margin: 20px;
+    text-align: center;
+    color: rgb(53, 53, 53);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todos_servicios5 img{
+    width: 100%;
+}
+
+
+/* filosofia  */
+
+.subtitulo2{
+    grid-column: 2/-1;
+}
+
+.subtitulo2 h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.beneficios1{
+    grid-column: 2/5;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.beneficios1 h2{
+    text-align: center;
+}
+
+.beneficios2{
+    grid-column: 5/8;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.beneficios2 h2{
+    text-align: center;
+}
+
+.beneficios3{
+    grid-column: 8/11;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.beneficios3 h2{
+    text-align: center;
+}
+
+
+
+
+/*  frase final */
+
+.frasefinal{
+    background-color: rgb(61, 61, 61);
+}
+
+
+.final{
+    grid-column: 2/10;
+}
+
+.final h2{
+    color: white;
+    margin: 30px 0 30px 0;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.postulacion{
+    grid-column: 10/12;
+}
+
+.boton{
+    margin: 40px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(0, 125, 197);
+}
+
+.postilacion .boton:hover{
+    background-color: #e2f798;
+}
+
+.postulacion2{
+    grid-column: 10/12;
+}
+
+.boton5{
+    margin: 0 auto 30px 40px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(0, 125, 197);
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+.postilacion2 .boton:hover{
+    background-color: #e2f798;
+}
+
+
+
+}

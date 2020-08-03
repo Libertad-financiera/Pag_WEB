@@ -1,0 +1,1493 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 90%;
+    max-width: 1100px;
+    height: 100%;
+    max-height: 1100px;
+    margin: auto;
+}
+
+.header{
+    background-color: rgb(61, 61, 61);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.barra_navegacion{
+    grid-column: 1/-1;
+    width: 100%;
+    background-color: rgb(61, 61, 61);
+}
+
+
+.navegacion{
+    grid-column: 1/10;
+    background-color: rgb(61, 61, 61);
+}
+
+.navegacion a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(61, 61, 61);
+  }
+
+.navegacion a{
+    float: right;
+
+}
+
+.navegacion ul a{
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+a li:hover{
+    background-color: #98e4f7;
+}
+
+
+/*  ------------ oferta de trabajo ------------ */
+
+.oferta_trabajo{
+    background-color: rgb(121, 166, 209);
+}
+
+.ofertatrabajo_titulo{
+    grid-column: 2/9;
+}
+
+.ofertatrabajo_titulo h2{
+    font-size: 35px;
+    font-weight: 800;
+    padding: 20px;
+    margin: 120px auto 40px 0;
+    color: rgb(74, 83, 92);
+    background-color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ----------menu----------- */
+
+.subtitulo{
+    grid-column: 2/-1;
+}
+
+.subtitulo h2{
+    padding: 20px 0 0 0;
+    margin: 30px auto 30px 0;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(74, 83, 92);
+}
+
+.hr_2{
+    grid-column: 2/-1;
+}
+
+.subtitulo_parrafo{
+    grid-column: 2/8;
+}
+
+.subtitulo_parrafo p{
+    margin: 10px auto 10px 0;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tdc_img{
+    grid-column: 8/12;
+}
+
+.tdc_img img{
+    width: 100%;
+}
+
+.loquevendemos_titulo{
+    grid-column: 2/6;
+}
+
+.loquevendemos_titulo h2{
+    padding: 20px 0 0 0;
+    margin: 30px auto 30px 0;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(74, 83, 92);
+}
+
+.boton1{
+    grid-column: 6/10;
+}
+
+.boton1 .button1{
+    padding: 10px;
+    margin: 50px auto 30px 0;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(74, 83, 92);
+    background-color: rgb(121, 166, 209)
+}
+
+.boton1 .button1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.loquevendemos_video{
+    grid-column: 2/9;
+}
+
+
+/* ----------- Herramientas -------------- */
+
+.loquenecesitamos{
+    grid-column: 2/-1;
+}
+.loquenecesitamos h2{
+    padding: 20px 0 0 0;
+    margin: 30px auto 30px 0;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(74, 83, 92);
+}
+
+.loquenecesitamos_H{
+    grid-column: 2/7;
+}
+
+.loquenecesitamos_H p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+.loquenecesitamos_N{
+    grid-column: 7/-1;
+}
+
+.loquenecesitamos_N p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+
+
+
+
+
+/* --------- Preguntas y respuestas-------- */
+
+.preguntas{
+    background-color: rgb(121, 166, 209);
+}
+
+.titulo2{
+    grid-column: 2/-1;
+}
+
+.titulo2 h2{
+    margin: 40px auto 30px 0;
+    color: rgb(74, 83, 92);
+    padding-left: 35px;
+    font-size: 30px;
+    text-align: left;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parrafo_preguntas{
+    grid-column: 2/-1;
+}
+
+.parrafo_preguntas p{
+    font-size: 20px;
+    color: rgb(74, 83, 92);
+    font-weight: 700;
+    margin: 0 auto 0 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.a{
+    grid-column: 2/7;
+    padding: 10px;
+    font-size: 15px;
+    margin: 20px;
+    text-align: justify;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.a h3{
+    font-size: 20px;
+    color: rgb(74, 83, 92);
+}
+
+.a p{
+    padding-top: 10px;
+}
+
+/* b */
+
+.b{
+    grid-column: 7/12;
+    padding: 10px;
+    font-size: 15px;
+    margin: 20px;
+    text-align: justify;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.b h3{
+    font-size: 20px;
+    color: rgb(74, 83, 92);
+}
+
+.b p{
+    padding-top: 10px;
+}
+
+
+/* c */
+
+.c{
+    grid-column: 2/7;
+    padding: 10px;
+    font-size: 15px;
+    margin: 20px;
+    text-align: justify;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.c h3{
+    font-size: 20px;
+    color: rgb(74, 83, 92);
+}
+
+.c p{
+    padding-top: 10px;
+}
+
+
+/*  d */
+
+.d{
+    grid-column: 7/12;
+    padding: 10px;
+    font-size: 15px;
+    margin: 20px;
+    text-align: justify;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.d h3{
+    font-size: 20px;
+    color: rgb(74, 83, 92);
+}
+
+.d p{
+    padding-top: 10px;
+}
+
+
+/* boton de preguntas */
+
+.botonrespuestas{
+    grid-column: 2/-1;
+}
+
+.boton4{
+    text-align: center;
+    margin: 20px;
+    
+}
+
+.boton4 a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(74, 83, 92);
+}
+
+
+
+
+
+/*  frase final */
+
+.frasefinal{
+    background-color: rgb(61, 61, 61);
+}
+
+
+.final{
+    grid-column: 2/10;
+}
+
+.final h2{
+    color: white;
+    margin: 30px 0 30px 0;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.postulacion{
+    grid-column: 10/12;
+}
+
+.boton{
+    margin: 40px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(0, 125, 197);
+}
+
+.boton a{
+    color: white;
+    text-decoration: none;
+}
+
+.postilacion .boton:hover{
+    background-color: #e2f798;
+}
+
+
+/* ---------------------------------- */
+/* -------------estilos responsive------- */
+/* ---------------------------------- */
+
+@media screen and (min-width: 250px){
+
+    .navegacion ul a{
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .ofertatrabajo_titulo{
+        grid-column: 1/-1;
+    }
+    .oferta_trabajo h2{
+        font-size: 20px;
+    }
+
+    .subtitulo h2{
+        font-size: 25px;
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .subtitulo_parrafo{
+        grid-column: 1/-1;
+    }
+
+    .subtitulo_parrafo p{
+        font-size: 16px;
+        font-weight: 500;
+        text-align: justify;
+    }
+    .tdc_img{
+        grid-column: 2/10;
+    }
+    .tdc_img img{
+        width: 90%;
+    }
+
+    /* lo que vendemos */
+
+    .loquevendemos_titulo{
+        grid-column: 1/-1;
+    }
+
+    .loquevendemos_titulo h2{
+        font-size: 20px;
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .boton1{
+        grid-column: 2/12;
+    }
+
+    .button1{
+        text-align: center;
+        margin: 5px;
+        padding: 5px;
+        font-size: 15px;
+    }
+
+    .button1 a{
+        text-align: center;
+        margin: 5px;
+        padding: 5px;
+        font-size: 15px;
+    }
+
+    .loquevendemos_video{
+        grid-column: 1/-1;
+        width: 100%;
+    }
+
+    .loquevendemos_video video{
+        width: 100%;
+    }
+    /* herramientas */
+
+    .loquenecesitamos{
+        grid-column: 1/-1;
+    }
+    .loquenecesitamos h2{
+        font-size: 20px;
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .loquenecesitamos_H{
+        grid-column: 1/-1;
+    }
+    .loquenecesitamos_H p{
+        font-size: 15px;
+        margin: 2px;
+        padding: 2px;
+    }
+
+    .loquenecesitamos_N{
+        grid-column: 1/-1;
+    }
+    .loquenecesitamos_N p{
+        font-size: 15px;
+        margin: 2px;
+        padding: 2px;
+    }
+
+    /* preguntas */
+
+    .titulo2{
+        grid-column: 1/-1;
+    }
+
+    .titulo2 h2{
+        font-size: 25px;
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .parrafo_preguntas{
+        grid-column: 1/-1;
+    }
+
+    .parrafo_preguntas p{
+        font-size: 13px;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .a{
+        grid-column: 1/-1;
+    }
+
+    .a{
+        font-size: 12px;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .b{
+        grid-column: 1/-1;
+    }
+
+    .b{
+        font-size: 12px;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .c{
+        grid-column: 1/-1;
+    }
+
+    .c{
+        font-size: 12px;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .d{
+        grid-column: 1/-1;
+    }
+
+    .d{
+        font-size: 12px;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .final {
+        grid-column: 1/-1;
+    }
+    .final h2{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .postulacion{
+        grid-column: 1/-1;
+    }
+    .boton{
+        text-align: center;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .postulacion2{
+        grid-column: 1/-1;
+    }
+    
+    .boton5{
+        margin: 0 auto 30px 40px;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 900;
+        color: white;
+        background-color: rgb(0, 125, 197);
+    }
+    
+    button a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .postilacion2 .boton:hover{
+        background-color: #e2f798;
+    }
+
+
+
+}
+
+@media screen and (min-width: 768px){
+
+    .navegacion ul a{
+        display: block;
+        font-size: 15px;
+        font-weight: 800;
+        color: white;
+        text-align: center;
+        padding: 25px 16px;
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+    
+    a li:hover{
+        background-color: #98e4f7;
+    }
+
+    .ofertatrabajo_titulo{
+        grid-column: 2/7;
+    }
+
+    .tdc_img img{
+        margin: 15px;
+    }
+
+    /* lo que vendemos */
+
+    .loquevendemos_titulo h2{
+        font-size: 30px;
+    }
+
+    .loquevendemos_video{
+        grid-column: 4/12;
+    }
+
+    .loquevendemos_video video{
+        width: 100%;
+    }
+
+
+
+    .postulacion2{
+        grid-column: 1/12;
+    }
+    
+    .boton5{
+        margin: 0 auto 30px 40px;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 900;
+        color: white;
+        background-color: rgb(0, 125, 197);
+    }
+    
+    button a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .postilacion2 .boton:hover{
+        background-color: #e2f798;
+    }
+}
+
+
+@media screen and (min-width:1000px){
+
+
+    .header{
+        background-color: rgb(61, 61, 61);
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    
+    .barra_navegacion{
+        grid-column: 1/-1;
+        width: 100%;
+        background-color: rgb(61, 61, 61);
+    }
+    
+    
+    .navegacion{
+        grid-column: 1/10;
+        background-color: rgb(61, 61, 61);
+    }
+    
+    .navegacion a {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(61, 61, 61);
+      }
+    
+    .navegacion a{
+        float: right;
+    
+    }
+    
+    .navegacion ul a{
+        display: block;
+        font-size: 18px;
+        font-weight: 800;
+        color: white;
+        text-align: center;
+        padding: 25px 16px;
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+    
+    a li:hover{
+        background-color: #98e4f7;
+    }
+    
+    
+    /*  ------------ oferta de trabajo ------------ */
+    
+    .oferta_trabajo{
+        background-color: rgb(121, 166, 209);
+    }
+    
+    .ofertatrabajo_titulo{
+        grid-column: 2/9;
+    }
+    
+    .ofertatrabajo_titulo h2{
+        font-size: 35px;
+        font-weight: 800;
+        padding: 20px;
+        margin: 120px auto 40px 0;
+        color: rgb(74, 83, 92);
+        background-color: white;
+    
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    /* ----------menu----------- */
+    
+    .subtitulo{
+        grid-column: 2/-1;
+    }
+    
+    .subtitulo h2{
+        padding: 20px 0 0 0;
+        margin: 30px auto 30px 0;
+        font-size: 30px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(74, 83, 92);
+    }
+    
+    .hr_2{
+        grid-column: 2/-1;
+    }
+    
+    .subtitulo_parrafo{
+        grid-column: 2/8;
+    }
+    
+    .subtitulo_parrafo p{
+        margin: 10px auto 10px 0;
+        font-size: 17px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .tdc_img{
+        grid-column: 8/12;
+    }
+    
+    .tdc_img img{
+        width: 100%;
+    }
+        /* lo que vendemos */
+    
+    .loquevendemos_titulo{
+        grid-column: 2/6;
+    }
+    
+    .loquevendemos_titulo h2{
+        padding: 20px 0 0 0;
+        margin: 30px auto 30px 0;
+        font-size: 30px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(74, 83, 92);
+    }
+
+
+
+    .loquevendemos_video{
+        grid-column: 4/9;
+    }
+    .loquevendemos_video .video{
+        width: 100%;
+    }
+    
+    
+    .boton1{
+        grid-column: 6/10;
+    }
+    
+    .boton1 .button1{
+        padding: 10px;
+        margin: 50px auto 30px 0;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(74, 83, 92);
+        background-color: rgb(121, 166, 209)
+    }
+    
+    .boton1 .button1 a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+    
+    
+    
+    /* ----------- Herramientas -------------- */
+    
+    .loquenecesitamos{
+        grid-column: 2/-1;
+    }
+    .loquenecesitamos h2{
+        padding: 20px 0 0 0;
+        margin: 30px auto 30px 0;
+        font-size: 30px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(74, 83, 92);
+    }
+    
+    .loquenecesitamos_H{
+        grid-column: 2/7;
+    }
+    
+    .loquenecesitamos_H p{
+        font-size: 20px;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px;
+    }
+    
+    .loquenecesitamos_N{
+        grid-column: 7/-1;
+    }
+    
+    .loquenecesitamos_N p{
+        font-size: 20px;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px;
+    }
+    
+    
+    
+    
+    /* --------- Preguntas y respuestas-------- */
+    
+    .preguntas{
+        background-color: rgb(121, 166, 209);
+    }
+    
+    .titulo2{
+        grid-column: 2/-1;
+    }
+    
+    .titulo2 h2{
+        margin: 40px auto 30px 0;
+        color: rgb(74, 83, 92);
+        padding-left: 35px;
+        font-size: 30px;
+        text-align: left;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .parrafo_preguntas{
+        grid-column: 2/-1;
+    }
+    
+    .parrafo_preguntas p{
+        font-size: 20px;
+        color: rgb(74, 83, 92);
+        font-weight: 700;
+        margin: 0 auto 0 40px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .a{
+        grid-column: 2/7;
+        padding: 10px;
+        font-size: 15px;
+        margin: 20px;
+        text-align: justify;
+    
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .a h3{
+        font-size: 20px;
+        color: rgb(74, 83, 92);
+    }
+    
+    .a p{
+        padding-top: 10px;
+    }
+    
+    /* b */
+    
+    .b{
+        grid-column: 7/12;
+        padding: 10px;
+        font-size: 15px;
+        margin: 20px;
+        text-align: justify;
+    
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .b h3{
+        font-size: 20px;
+        color: rgb(74, 83, 92);
+    }
+    
+    .b p{
+        padding-top: 10px;
+    }
+    
+    
+    /* c */
+    
+    .c{
+        grid-column: 2/7;
+        padding: 10px;
+        font-size: 15px;
+        margin: 20px;
+        text-align: justify;
+    
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .c h3{
+        font-size: 20px;
+        color: rgb(74, 83, 92);
+    }
+    
+    .c p{
+        padding-top: 10px;
+    }
+    
+    
+    /*  d */
+    
+    .d{
+        grid-column: 7/12;
+        padding: 10px;
+        font-size: 15px;
+        margin: 20px;
+        text-align: justify;
+    
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .d h3{
+        font-size: 20px;
+        color: rgb(74, 83, 92);
+    }
+    
+    .d p{
+        padding-top: 10px;
+    }
+    
+    
+    /* boton de preguntas */
+    
+    .botonrespuestas{
+        grid-column: 2/-1;
+    }
+    
+    .boton4{
+        text-align: center;
+        margin: 20px;
+        
+    }
+    
+    .boton4 a{
+        text-decoration: none;
+        font-size: 20px;
+        padding: 10px;
+        font-weight: 500;
+        color: white;
+        background-color: rgb(74, 83, 92);
+    }
+    
+    
+    
+    /*  frase final */
+    
+    .frasefinal{
+        background-color: rgb(61, 61, 61);
+    }
+    
+    
+    .final{
+        grid-column: 2/10;
+    }
+    
+    .final h2{
+        color: white;
+        margin: 30px 0 30px 0;
+        font-size: 25px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    
+    
+    .postulacion{
+        grid-column: 10/12;
+    }
+    
+    .boton{
+        margin: 40px;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 900;
+        color: white;
+        background-color: rgb(0, 125, 197);
+    }
+    
+    .boton a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .postilacion .boton:hover{
+        background-color: #e2f798;
+    }.navegacion ul a{
+        display: block;
+        font-size: 18px;
+        font-weight: 800;
+        color: white;
+        text-align: center;
+        padding: 25px 16px;
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+    
+    a li:hover{
+        background-color: #98e4f7;
+    }
+
+    .postulacion2{
+        grid-column: 9/12;
+    }
+    
+    .boton5{
+        /* margin: 0 auto 30px 40px; */
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 900;
+        color: white;
+        background-color: rgb(0, 125, 197);
+    }
+    
+    button a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .postilacion2 .boton:hover{
+        background-color: #e2f798;
+    }
+}
+
+
+@media screen and (min-width: 1200px){
+
+
+    .header{
+        background-color: rgb(61, 61, 61);
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    
+    .barra_navegacion{
+        grid-column: 1/-1;
+        width: 100%;
+        background-color: rgb(61, 61, 61);
+    }
+    
+    
+    .navegacion{
+        grid-column: 1/10;
+        background-color: rgb(61, 61, 61);
+    }
+    
+    .navegacion a {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(61, 61, 61);
+      }
+    
+    .navegacion a{
+        float: right;
+    
+    }
+    
+    .navegacion ul a{
+        display: block;
+        font-size: 18px;
+        font-weight: 800;
+        color: white;
+        text-align: center;
+        padding: 25px 16px;
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+    
+    a li:hover{
+        background-color: #98e4f7;
+    }
+    
+    
+    /*  ------------ oferta de trabajo ------------ */
+    
+    .oferta_trabajo{
+        background-color: rgb(121, 166, 209);
+    }
+    
+    .ofertatrabajo_titulo{
+        grid-column: 2/9;
+    }
+    
+    .ofertatrabajo_titulo h2{
+        font-size: 35px;
+        font-weight: 800;
+        padding: 20px;
+        margin: 120px auto 40px 0;
+        color: rgb(74, 83, 92);
+        background-color: white;
+    
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    /* ----------menu----------- */
+    
+    .subtitulo{
+        grid-column: 2/-1;
+    }
+    
+    .subtitulo h2{
+        padding: 20px 0 0 0;
+        margin: 30px auto 30px 0;
+        font-size: 30px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(74, 83, 92);
+    }
+    
+    .hr_2{
+        grid-column: 2/-1;
+    }
+    
+    .subtitulo_parrafo{
+        grid-column: 2/8;
+    }
+    
+    .subtitulo_parrafo p{
+        margin: 10px auto 10px 0;
+        font-size: 17px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .tdc_img{
+        grid-column: 8/12;
+    }
+    
+    .tdc_img img{
+        width: 100%;
+    }
+    
+    .loquevendemos_titulo{
+        grid-column: 2/6;
+    }
+    
+    .loquevendemos_titulo h2{
+        padding: 20px 0 0 0;
+        margin: 30px auto 30px 0;
+        font-size: 30px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(74, 83, 92);
+    }
+
+
+
+    
+    .boton1{
+        grid-column: 6/10;
+    }
+    
+    .boton1 .button1{
+        padding: 10px;
+        margin: 50px auto 30px 0;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(74, 83, 92);
+        background-color: rgb(121, 166, 209)
+    }
+    
+    .boton1 .button1 a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .loquevendemos_video{
+        grid-column: 4/9;
+    }
+    .loquevendemos_video .video{
+        width: 100%;
+    }
+    
+    
+    /* ----------- Herramientas -------------- */
+    
+    .loquenecesitamos{
+        grid-column: 2/-1;
+    }
+    .loquenecesitamos h2{
+        padding: 20px 0 0 0;
+        margin: 30px auto 30px 0;
+        font-size: 30px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(74, 83, 92);
+    }
+    
+    .loquenecesitamos_H{
+        grid-column: 2/7;
+    }
+    
+    .loquenecesitamos_H p{
+        font-size: 20px;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px;
+    }
+    
+    .loquenecesitamos_N{
+        grid-column: 7/-1;
+    }
+    
+    .loquenecesitamos_N p{
+        font-size: 20px;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px;
+    }
+    
+    
+    
+    
+    
+    
+    /* --------- Preguntas y respuestas-------- */
+    
+    .preguntas{
+        background-color: rgb(121, 166, 209);
+    }
+    
+    .titulo2{
+        grid-column: 2/-1;
+    }
+    
+    .titulo2 h2{
+        margin: 40px auto 30px 0;
+        color: rgb(74, 83, 92);
+        padding-left: 35px;
+        font-size: 30px;
+        text-align: left;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .parrafo_preguntas{
+        grid-column: 2/-1;
+    }
+    
+    .parrafo_preguntas p{
+        font-size: 20px;
+        color: rgb(74, 83, 92);
+        font-weight: 700;
+        margin: 0 auto 0 40px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .a{
+        grid-column: 2/7;
+        padding: 10px;
+        font-size: 15px;
+        margin: 20px;
+        text-align: justify;
+    
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .a h3{
+        font-size: 20px;
+        color: rgb(74, 83, 92);
+    }
+    
+    .a p{
+        padding-top: 10px;
+    }
+    
+    /* b */
+    
+    .b{
+        grid-column: 7/12;
+        padding: 10px;
+        font-size: 15px;
+        margin: 20px;
+        text-align: justify;
+    
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .b h3{
+        font-size: 20px;
+        color: rgb(74, 83, 92);
+    }
+    
+    .b p{
+        padding-top: 10px;
+    }
+    
+    
+    /* c */
+    
+    .c{
+        grid-column: 2/7;
+        padding: 10px;
+        font-size: 15px;
+        margin: 20px;
+        text-align: justify;
+    
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .c h3{
+        font-size: 20px;
+        color: rgb(74, 83, 92);
+    }
+    
+    .c p{
+        padding-top: 10px;
+    }
+    
+    
+    /*  d */
+    
+    .d{
+        grid-column: 7/12;
+        padding: 10px;
+        font-size: 15px;
+        margin: 20px;
+        text-align: justify;
+    
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .d h3{
+        font-size: 20px;
+        color: rgb(74, 83, 92);
+    }
+    
+    .d p{
+        padding-top: 10px;
+    }
+    
+    
+    /* boton de preguntas */
+    
+    .botonrespuestas{
+        grid-column: 2/-1;
+    }
+    
+    .boton4{
+        text-align: center;
+        margin: 20px;
+        
+    }
+    
+    .boton4 a{
+        text-decoration: none;
+        font-size: 20px;
+        padding: 10px;
+        font-weight: 500;
+        color: white;
+        background-color: rgb(74, 83, 92);
+    }
+    
+    
+    
+    
+    
+    /*  frase final */
+    
+    .frasefinal{
+        background-color: rgb(61, 61, 61);
+    }
+    
+    
+    .final{
+        grid-column: 2/10;
+    }
+    
+    .final h2{
+        color: white;
+        margin: 30px 0 30px 0;
+        font-size: 25px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    
+    
+    .postulacion{
+        grid-column: 10/12;
+    }
+    
+    .boton{
+        margin: 40px;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 900;
+        color: white;
+        background-color: rgb(0, 125, 197);
+    }
+    
+    .boton a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .postilacion .boton:hover{
+        background-color: #e2f798;
+    }
+
+    .postulacion2{
+        grid-column: 10/12;
+    }
+    
+    .boton5{
+        margin: 0 auto 30px 40px;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 900;
+        color: white;
+        background-color: rgb(0, 125, 197);
+    }
+    
+    button a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .postilacion2 .boton:hover{
+        background-color: #e2f798;
+    }
+}

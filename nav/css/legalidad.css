@@ -1,0 +1,740 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 90%;
+    max-width: 1100px;
+    height: 100%;
+    max-height: 1100px;
+    margin: auto;
+}
+
+.header{
+    background-color: rgb(61, 61, 61);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.barra_navegacion{
+    grid-column: 1/-1;
+    width: 100%;
+    background-color: rgb(61, 61, 61);
+}
+
+
+.navegacion{
+    grid-column: 1/10;
+    background-color: rgb(61, 61, 61);
+}
+
+.navegacion a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(61, 61, 61);
+  }
+
+.navegacion a{
+    float: right;
+
+}
+
+.navegacion ul a{
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+a li:hover{
+    background-color: #e2f798;
+}
+
+
+/*  ------------ Legalidad ------------ */
+
+.legalidad{
+    background-color: rgb(121, 166, 209);
+}
+
+.legalidad_titulo{
+    grid-column: 2/9;
+}
+
+.legalidad_titulo h2{
+    font-size: 35px;
+    font-weight: 800;
+    padding: 20px;
+    margin: 120px auto 40px 0;
+    color: rgb(74, 83, 92);
+    background-color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ---------------- legalidad subtitulos ---------------- */
+
+.legalidad_subtitulo{
+    height: auto;
+}
+
+.libertadfinancieraNA{
+    grid-column: 2/-1;
+}
+
+.libertadfinancieraNA h2{
+    padding: 20px 0 0 0;
+    margin: 30px auto 15px 0;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(74, 83, 92);
+}
+
+.libertadfinancieraNA p{
+    padding: 20px 0 0 0;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(74, 83, 92);
+}
+
+.documentos{
+    grid-column: 2/7;
+    margin: 20px auto 20px 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+/* hr{
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    height: 0;
+}
+.documento1{
+    grid-column: 2/7;
+    margin: 20px auto 20px 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.documento2{
+    grid-column: 2/7;
+    margin: 20px auto 20px 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.documento3{
+    grid-column: 2/7;
+    margin: 20px auto 20px 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.documento4{
+    grid-column: 2/7;
+    margin: 20px auto 20px 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.documento5{
+    grid-column: 2/7;
+    margin: 20px auto 20px 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.documento6{
+    grid-column: 2/7;
+    margin: 20px auto 20px 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.documento7{
+    grid-column: 2/7;
+    margin: 20px auto 20px 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.documento8{
+    grid-column: 2/7;
+    margin: 20px auto 20px 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* -------------- encargado ----------------- */
+
+.subtitulo2{
+    grid-column: 2/-1;
+}
+
+.subtitulo2 h3{
+    font-size: 30px;
+    margin: 40px auto 20px 0;
+}
+
+.subtitulo3{
+    grid-column: 2/-1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hr_1{
+    grid-column: 2/5;
+    width: 150px;
+}
+
+.subtitulo3 h2{
+    margin: 20px auto 10px 0;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+
+.subtitulo3 p{
+    font-size: 20px;
+    padding: 10px auto 20px 0;
+    margin: 10px auto 20px 0;
+}
+
+
+/*  frase final */
+
+.frasefinal{
+    background-color: rgb(61, 61, 61);
+}
+
+
+.final{
+    grid-column: 2/10;
+}
+
+.final h2{
+    color: white;
+    margin: 30px 0 30px 0;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.postulacion{
+    grid-column: 10/12;
+}
+
+.boton{
+    margin: 40px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(0, 125, 197);
+}
+
+.postilacion .boton:hover{
+    background-color: #e2f798;
+} 
+
+
+
+
+
+/* --------------------------------------------------- */
+/* ----------------- estilos responsive----------------- */
+/* --------------------------------------------------- */
+
+@media screen and (min-width: 250px){
+
+    .navegacion ul a{
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .legalidad_titulo{
+        grid-column: 2/9;
+    }
+
+    .legalidad_titulo h2{
+        font-size: 20px;
+        margin: 85px auto 10px 0;
+    }
+
+    .libertadfinancieraNA{
+        grid-column: 1/-1;
+    }
+
+    .libertadfinancieraNA h2{
+        font-size: 20px;
+        margin: 10px auto 0 0;
+        text-align: center;
+    }
+
+    .libertadfinancieraNA p{
+        font-size: 15px;
+        margin: 5px;
+        text-align: justify;
+    }
+
+    .documentos{
+        grid-column: 1/-1;
+        margin: 5px;
+        padding: 5px;
+        font-size: 11.5px;
+    }
+    
+    /* encargados */
+
+    .subtitulo2{
+        grid-column: 1/-1;
+        margin: 0;
+        padding: 0;
+    }
+
+    .subtitulo2 h3{
+        font-size: 20px;
+        margin-top: 90px;
+        padding: 0;
+        text-align: center;
+    } 
+
+
+    .subtitulo3 h2{
+        font-size: 25px;
+        margin: 10px auto 0 0;
+    }
+
+    .subtitulo3 p{
+        font-size: 10px;
+    }
+
+
+    .final{
+        grid-column: 2/10;
+    }
+
+    .final h2{
+        text-align: left;
+        margin-top: 20px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .postulacion{
+        grid-column: 2/12;
+    }
+
+    .postulacion2{
+        grid-column: 1/-1;
+    }
+    
+    .boton5{
+        margin: 0 auto 30px 40px;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 900;
+        color: white;
+        background-color: rgb(0, 125, 197);
+    }
+    
+    button a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .postilacion2 .boton:hover{
+        background-color: #e2f798;
+    }
+} 
+
+
+
+
+@media screen and (min-width: 768px){
+
+    .navegacion ul a{
+        display: block;
+        font-size: 15px;
+        font-weight: 800;
+        color: white;
+        text-align: center;
+        padding: 25px 16px;
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+    
+    a li:hover{
+        background-color: #98e4f7;
+    }
+
+    .libertadfinancieraNA h2{
+        font-size: 25px;
+        margin: 10px auto 5px 0;
+    }
+
+    .libertadfinancieraNA p{
+        font-size: 15px;
+        margin: 0 auto 5px 0;
+    }
+
+    .documentos{
+        grid-column: 2/9;
+        font-size: 13px;
+    }
+
+
+    /* encargado */
+
+    .subtitulo2 h3{
+        font-size: 25px;
+        margin: 10px auto 10px 0;
+    }
+
+    .subtitulo3{
+        font-size: 20px;
+    }
+
+    .final{
+        grid-column: 2/10;
+    }
+
+    .final h2{
+        text-align: left;
+        margin-top: 15px;
+    }
+
+    .postulacion{
+        grid-column: 10/12;
+    }
+
+    .postulacion2{
+        grid-column: 1/12;
+    }
+    
+    .boton5{
+        margin: 0 auto 30px 40px;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 900;
+        color: white;
+        background-color: rgb(0, 125, 197);
+    }
+    
+    button a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .postilacion2 .boton:hover{
+        background-color: #e2f798;
+    }
+
+}
+
+
+
+
+
+@media screen and (min-width:1000px){
+
+
+    .navegacion ul a{
+        display: block;
+        font-size: 18px;
+        font-weight: 800;
+        color: white;
+        text-align: center;
+        padding: 25px 16px;
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+    
+    a li:hover{
+        background-color: #98e4f7;
+    }
+
+    .documentos{
+        grid-column: 2/8;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .documento1 p{
+        grid-column: 1/6;
+    }
+
+    .documento2 p{
+        grid-column: 6/12;    
+    }
+
+    .postulacion2{
+        grid-column: 9/12;
+    }
+    
+    .boton5{
+        /* margin: 0 auto 30px 40px; */
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 900;
+        color: white;
+        background-color: rgb(0, 125, 197);
+    }
+    
+    button a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .postilacion2 .boton:hover{
+        background-color: #e2f798;
+    }
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 1200px){
+    
+
+    .header{
+        background-color: rgb(61, 61, 61);
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    
+    .barra_navegacion{
+        grid-column: 1/-1;
+        width: 100%;
+        background-color: rgb(61, 61, 61);
+    }
+    
+    
+    .navegacion{
+        grid-column: 1/10;
+        background-color: rgb(61, 61, 61);
+    }
+    
+    .navegacion a {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(61, 61, 61);
+      }
+    
+    .navegacion a{
+        float: right;
+    
+    }
+    
+    .navegacion ul a{
+        display: block;
+        font-size: 18px;
+        font-weight: 800;
+        color: white;
+        text-align: center;
+        padding: 25px 16px;
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+    
+    a li:hover{
+        background-color: #e2f798;
+    }
+    
+    
+    /*  ------------ Legalidad ------------ */
+    
+    .legalidad{
+        background-color: rgb(121, 166, 209);
+    }
+    
+    .legalidad_titulo{
+        grid-column: 2/9;
+    }
+    
+    .legalidad_titulo h2{
+        font-size: 35px;
+        font-weight: 800;
+        padding: 20px;
+        margin: 120px auto 40px 0;
+        color: rgb(74, 83, 92);
+        background-color: white;
+    
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    /* ---------------- legalidad subtitulos ---------------- */
+    
+    .legalidad_subtitulo{
+        height: auto;
+    }
+    
+    .libertadfinancieraNA{
+        grid-column: 2/-1;
+    }
+    
+    .libertadfinancieraNA h2{
+        padding: 20px 0 0 0;
+        margin: 30px auto 15px 0;
+        font-size: 30px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(74, 83, 92);
+    }
+    
+    .libertadfinancieraNA p{
+        padding: 20px 0 0 0;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(74, 83, 92);
+    }
+    
+    .documentos{
+        grid-column: 2/7;
+        margin: 20px auto 20px 0;
+        padding: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    } 
+    
+    /* -------------- encrgado ----------------- */
+    
+    .subtitulo2{
+        grid-column: 2/-1;
+    }
+    
+    .subtitulo2 h3{
+        font-size: 30px;
+        margin: 40px auto 20px 0;
+    }
+    
+    .subtitulo3{
+        grid-column: 2/-1;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .hr_1{
+        grid-column: 2/5;
+        width: 150px;
+    }
+    
+    .subtitulo3 h2{
+        margin: 20px auto 10px 0;
+        font-size: 30px;
+        font-weight: 700;
+        
+    }
+    
+    .subtitulo3 p{
+        font-size: 20px;
+        padding: 10px auto 20px 0;
+        margin: 10px auto 20px 0;
+    }
+    
+    
+    /*  frase final */
+    
+    .frasefinal{
+        background-color: rgb(61, 61, 61);
+    }
+    
+    
+    .final{
+        grid-column: 2/10;
+    }
+    
+    .final h2{
+        color: white;
+        margin: 30px 0 30px 0;
+        font-size: 25px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    
+    
+    .postulacion{
+        grid-column: 10/12;
+    }
+    
+    .boton{
+        margin: 40px;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 900;
+        color: white;
+        background-color: rgb(0, 125, 197);
+    }
+    
+    .postilacion .boton:hover{
+        background-color: #e2f798;
+    } 
+
+    .postulacion2{
+        grid-column: 10/12;
+    }
+    
+    .boton5{
+        margin: 0 auto 30px 40px;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 900;
+        color: white;
+        background-color: rgb(0, 125, 197);
+    }
+    
+    button a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .postilacion2 .boton:hover{
+        background-color: #e2f798;
+    }
+
+    .postulacion2{
+        grid-column: 10/12;
+    }
+    
+    .boton5{
+        margin: 0 auto 30px 40px;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 900;
+        color: white;
+        background-color: rgb(0, 125, 197);
+    }
+    
+    button a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .postilacion2 .boton:hover{
+        background-color: #e2f798;
+    }
+}

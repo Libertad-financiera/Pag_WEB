@@ -1,0 +1,1419 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 90%;
+    max-width: 1100px;
+    height: 100%;
+    max-height: 1100px;
+    margin: auto;
+}
+
+.header{
+    background-color: rgb(61, 61, 61);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.barra_navegacion{
+    grid-column: 1/-1;
+    width: 100%;
+    background-color: rgb(61, 61, 61);
+}
+
+
+.navegacion{
+    grid-column: 1/10;
+    background-color: rgb(61, 61, 61);
+}
+
+.navegacion a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(61, 61, 61);
+  }
+
+.navegacion a{
+    float: right;
+
+}
+
+.navegacion ul a{
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+a li:hover{
+    background-color: #98e4f7;
+}
+
+/* titulo principal */
+
+
+.titulo_principal{
+    grid-column: 1/-1;
+    height: 550px;
+    padding: 0;
+
+    background: #00d2ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #928DAB, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #928dab9f, #00d0ff6b),url(../img/imagen5.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.frase_0{
+    grid-column: 1/-1;
+    text-align: center;
+    padding: 10px;
+    margin-top: 75px;
+    font-size: 30px;
+    color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.titulo1{
+    grid-column: 2/-1;
+    /* padding-top: 80px; */
+}
+
+
+.titulo1 h1{
+    font-size: 60px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    animation-duration: 3s;
+    animation-name: slidein; 
+
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+} 
+
+.titulo_principal p{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+
+    animation-duration: 3s;
+    animation-name: slidein;
+} 
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+.strong{
+    color: rgb(85, 85, 85);
+}
+
+/* ------------- subtitulo numero 1---------------- */
+
+
+.subtitulo1{
+    grid-column: 2/-1;
+    margin: 20px;
+}
+.subtitulo1 h2{
+
+    text-align: center;
+    padding: 10px;
+    color: rgb(77, 77, 77);
+    font-size: 40px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ------------- menu ---------------- */
+
+.menu{
+    margin: 20px;
+}
+
+img{
+    grid-column: 2/6;
+    width: 100%;
+    margin: 20px;
+}
+
+.confia_texto{
+    grid-column: 7/-1;
+}
+
+.confia_texto h3{
+    font-size: 40px;
+    text-align: left;
+    color: rgb(77, 77, 77);
+}
+
+.hr1{
+    width: 100%;
+    border: 0.5px solid;
+    font-weight: 400;
+}
+
+.confia_texto p{
+    text-align: justify;
+    padding: 20px 20px 0 0;
+    margin-right: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+img{
+    grid-column: 2/6;
+    width: 100%;
+    margin: 20px;
+}
+
+.asesoria{
+    grid-column: 7/-1;
+}
+
+.asesoria h3{
+    font-size: 40px;
+    text-align: left;
+    color: rgb(77, 77, 77);
+}
+
+.hr2{
+    width: 100%;
+    border: 0.5px solid;
+    font-weight: 400;
+}
+
+.asesoria p{
+    text-align: justify;
+    padding: 20px 20px 0 0;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+button{
+    margin: 20px;
+    padding: 10px;
+    border-color: rgb(116, 182, 235);
+    background: white;
+    color: gb(116, 182, 235);
+}
+
+
+/* ---------- frase ---------- */
+
+.frase{
+    background-color: rgb(241, 241, 241);
+}
+
+.imgN{
+    grid-column: 3/5;
+    width: 100%;
+}
+
+.imgna{
+    border-radius: 50%;
+}
+
+.texto_frase{
+    grid-column: 5/-1;
+}
+
+.texto_frase p{
+    font-size: 20px;
+    color: rgb(187, 187, 187);
+    padding: 20px;
+    margin: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* --------- Asesoria Financiera-------- */
+
+.AF{
+    background-color: rgb(121, 166, 209);
+}
+
+.titulo2{
+    grid-column: 2/-1;
+}
+
+.titulo2 h2{
+    margin: 40px auto 30px 0;
+    color: rgb(74, 83, 92);
+    padding-left: 35px;
+    font-size: 40px;
+    text-align: left;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.a{
+    grid-column: 2/7;
+    padding: 10px;
+    font-size: 15px;
+    margin: 30px;
+    text-align: justify;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.a h3{
+    font-size: 20px;
+    color: rgb(74, 83, 92);
+}
+
+.a p{
+    padding-top: 10px;
+}
+
+/* b */
+
+.b{
+    grid-column: 7/12;
+    padding: 10px;
+    font-size: 15px;
+    margin: 30px;
+    text-align: justify;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.b h3{
+    font-size: 20px;
+    color: rgb(74, 83, 92);
+}
+
+.b p{
+    padding-top: 10px;
+}
+
+
+/* c */
+
+.c{
+    grid-column: 2/7;
+    padding: 10px;
+    font-size: 15px;
+    margin: 30px;
+    text-align: justify;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.c h3{
+    font-size: 20px;
+    color: rgb(74, 83, 92);
+}
+
+.c p{
+    padding-top: 10px;
+}
+
+
+/*  d */
+
+.d{
+    grid-column: 7/12;
+    padding: 10px;
+    font-size: 15px;
+    margin: 30px;
+    text-align: justify;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.d h3{
+    font-size: 20px;
+    color: rgb(74, 83, 92);
+}
+
+.d p{
+    padding-top: 10px;
+}
+
+/* 
+
+.e{
+    grid-column: 6/10;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.e p{
+    padding-top: 10px;
+}
+.e a{
+   margin: 30px;
+}
+
+
+
+.f{
+    grid-column: 10/13;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.f p{
+    padding-top: 10px;
+}
+.f a{
+   margin: 30px;
+
+} */
+
+
+/*  frase final */
+
+.frasefinal{
+    background-color: rgb(61, 61, 61);
+}
+
+
+.final{
+    grid-column: 2/10;
+}
+
+.final h2{
+    color: white;
+    margin: 30px 0 30px 0;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.postulacion{
+    grid-column: 10/12;
+}
+
+.boton{
+    margin: 40px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(0, 125, 197);
+}
+
+.postilacion .boton:hover{
+    background-color: #e2f798;
+}
+
+.postulacion2{
+    grid-column: 10/12;
+}
+
+.boton5{
+    margin: 0 auto 30px 40px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(0, 125, 197);
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+.postilacion2 .boton:hover{
+    background-color: #e2f798;
+}
+
+
+/* ------------------------------------------------ */
+/* --------------Estilos responsive ------------------ */
+/* -------------------------------------------------- */
+
+@media screen and (min-width: 250px){
+
+
+    .header{
+        grid-column: 1/-1;
+    }
+
+    .navegacion a {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(61, 61, 61);
+      }
+    
+    .navegacion a{
+        float: right;
+    
+    }
+
+    .navegacion a{
+        font-size: 20px;
+    }
+
+    .navegacion ul a{
+        display: block;
+        font-size: 13px;
+        font-weight: 800;
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding: 10px;
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+
+    /* --------titulo principal-------- */
+
+    .frase_0{
+        margin-top: 120px;
+        font-size: 20px;
+    }
+
+
+
+    .titulo1{
+        grid-column: 1/-1;
+        margin: 7px;
+    }
+
+    .titulo1 h1{
+        font-size: 33px;
+    }
+
+    .titulo1 p{
+        font-size: 16px;
+    }
+
+
+    /* ---------- subtitulo------------ */
+
+    .subtitulo1 h2{
+        font-size: 25px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    /* ---------menu------------ */
+    
+    img{
+        grid-column: 2/12;
+        margin: 0;
+        width: 80%;
+        text-align: center;
+    }
+
+    .confia_texto{
+        grid-column: 1/-1;
+        font-size: 5px;
+        /* text-align: center; */
+    }
+
+    .confia_texto h3{
+        text-align: center;
+    }
+
+    .confia_texto p{
+        text-align: center;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+
+
+    .confia_texto .parrafo_1{
+        grid-column: 1/-1;
+        text-align: justify;
+    }
+
+    .asesoria{
+        grid-column: 1/-1;
+    }
+
+    .asesoria h3{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .asesoria p{
+        font-size: 14px;
+    }
+
+    .imgN{
+        grid-column: 4/9;
+        width: 90%;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .texto_frase{
+        grid-column: 1/-1;
+        font-size: 20px;
+    }
+
+    .texto_frase p{
+        font-size: 15px;
+        color: rgb(107, 105, 105);
+        text-align: center;
+        padding: 0px;
+        margin: 5px;
+        font-weight: 800;
+        
+    }
+
+
+    /* ------AF----------- */
+
+    .titulo2{
+        grid-column: 1/-1;
+    }
+
+    .titulo2 h2{
+        font-size: 30px;
+        text-align: center;
+        margin: 5px;
+    }
+    .a{
+        grid-column: 1/-1;
+        margin: 5px;
+    }
+    .a h3{
+        text-align: center;
+    }
+
+    .b{
+        grid-column: 1/-1;
+        margin: 5px;
+    }
+    .b h3{
+        text-align: center;
+    }
+
+    .c{
+        grid-column: 1/-1;
+        margin: 5px;
+    }
+    .c h3{
+        text-align: center;
+    }
+
+    .d{
+        grid-column: 1/-1;
+        margin: 5px;
+    }
+    .d h3{
+        text-align: center;
+    }
+    
+
+    /* ------frase final-------- */
+
+    .final{
+        grid-column: 1/-1;
+    }
+
+    .final h2{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .postulacion{
+        grid-column: 2/9;
+        margin: 0 auto 10px 0;
+    }
+
+    .postulacion2{
+        grid-column: 1/-1;
+    }
+    
+    .boton5{
+        margin: 0 auto 30px 40px;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 900;
+        color: white;
+        background-color: rgb(0, 125, 197);
+    }
+    
+    button a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .postilacion2 .boton:hover{
+        background-color: #e2f798;
+    }
+
+}
+
+
+
+@media screen and (min-width: 768px){
+
+    .header{
+        background-color: rgb(61, 61, 61);
+        top: 0;
+        width: 100%;
+    }
+    
+    .barra_navegacion{
+        grid-column: 1/-1;
+        width: 100%;
+        background-color: rgb(61, 61, 61);
+    }
+    
+    
+    .navegacion{
+        grid-column: 1/10;
+        background-color: rgb(61, 61, 61);
+    }
+    
+    .navegacion a {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(61, 61, 61);
+      }
+    
+    .navegacion a{
+        float: right;
+    
+    }
+    
+    .navegacion ul a{
+        display: block;
+        font-size: 15px;
+        font-weight: 800;
+        color: white;
+        text-align: center;
+        padding: 25px 16px;
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+    
+    a li:hover{
+        background-color: #98e4f7;
+    }
+    
+    /* -------- titulo principal ----------- */
+
+
+    .frase_0{
+        font-size: 30px;
+    }
+
+
+    .titulo1 h1{
+        font-size: 40px;
+    }
+
+
+    .titulo1 p{
+        font-size: 20px;
+    }
+
+    /* --------subtitulo---------------- */
+
+    .subtitulo1 h2{
+        font-size: 40px;
+    }
+
+    /* ------- menu------------ */
+
+    img{
+        grid-column: 1/5;
+    }
+
+    .confia_texto{
+        grid-column: 6/-1;
+    }
+
+    .confia_texto p{
+        font-size: 15px;
+    }
+
+    img{
+        grid-column: 1/6;
+        margin-top: 70px;
+    }
+
+    .asesoria{
+        grid-column: 6/-1;
+    }
+
+    .asesoria p{
+        font-size: 17px;
+    }
+
+
+    /* --------frase------------ */
+
+    .imgN{
+        grid-column: 1/4;
+        width: 100%;
+        margin: 0 auto 30px 10px;
+    }
+
+
+    .texto_frase{
+        grid-column: 4/-1;
+    }
+
+    .texto_frase p{
+        margin: 60px auto 5px 0;
+        font-size: 16px;
+    }
+
+
+
+    /* -------- AF------------ */
+
+    .titulo2{
+        grid-column: 2/-1;
+        color: rgb(43, 42, 42);
+    }
+
+
+    .a{
+        grid-column: 3/12;
+        font-size: 15px;
+        margin: 6px;
+    }
+    .a p{
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    .b{
+        grid-column: 3/12;
+        font-size: 15px;
+        margin: 6px;
+    }
+    .b p{
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    .c{
+        grid-column: 3/12;
+        font-size: 15px;
+        margin: 6px auto 10px 0;
+    }
+    .c p{
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    .d{
+        grid-column: 3/12;
+        font-size: 15px;
+        margin: 6px auto 10px 0;
+    }
+    .d p{
+        text-align: justify;
+        font-size: 20px;
+    }
+
+
+    /* ------frase finl-------- */
+
+    .final h2{
+        font-size: 20px;
+    }
+    .postulacion{
+        grid-column: 1/-1;
+    }
+
+    .postulacion2{
+        grid-column: 1/12;
+    }
+    
+    .boton5{
+        margin: 0 auto 30px 40px;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 900;
+        color: white;
+        background-color: rgb(0, 125, 197);
+    }
+    
+    button a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .postilacion2 .boton:hover{
+        background-color: #e2f798;
+    }
+
+}
+
+@media screen and (min-width: 1000px){
+
+    .navegacion ul a{
+        display: block;
+        font-size: 20px;
+        font-weight: 800;
+        color: white;
+        text-align: center;
+        padding: 25px 16px;
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+    
+    a li:hover{
+        background-color: #98e4f7;
+    }
+
+    /* titulo principal */
+
+    .frase_0{
+        font-size: 30px;
+    }
+
+    .titulo1{
+        grid-column: 2/-1;
+        font-weight: 800;
+    }
+
+    .titulo1 h1{
+        font-weight: 800;
+    }
+
+
+    .subtitulo1{
+        grid-column: 1/-1;
+    }
+
+
+    /* -------menu---------- */
+
+    .confia_texto p{
+        font-size: 20px;
+    }
+
+    .asesoria p{
+        font-size: 20px;
+    }
+
+
+    /* --------frase------------ */
+
+    .texto_frase{
+        grid-column: 4/12;
+    }
+
+    .imgN{
+        width: 70%;
+    }
+    .texto_frase p{
+        font-size: 20px;
+    }
+
+
+    /*------------------ AF-------------- */
+
+    .a{
+        grid-column: 3/12;
+    }
+
+    .b{
+        grid-column: 3/12;
+    }
+
+
+    .c{
+        grid-column: 3/12;
+    }
+
+
+    .d{
+        grid-column: 3/12;
+    }
+
+
+
+    /* -------- frase final-------- */
+
+    .final{
+        grid-column: 2/9;
+    }
+
+    .final h2{
+        text-align: justify;
+    }
+
+
+    .postulacion{
+        grid-column: 9/12;
+    }
+
+    .postulacion2{
+        grid-column: 9/12;
+    }
+    
+    .boton5{
+        /* margin: 0 auto 30px 40px; */
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 900;
+        color: white;
+        background-color: rgb(0, 125, 197);
+    }
+    
+    button a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .postilacion2 .boton:hover{
+        background-color: #e2f798;
+    }
+
+
+}
+
+
+@media screen and (min-width: 1200px){
+
+    .navegacion ul a{
+        display: block;
+        font-size: 20px;
+        font-weight: 800;
+        color: white;
+        text-align: center;
+        padding: 25px 16px;
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+    
+    a li:hover{
+        background-color: #98e4f7;
+    }
+
+    /* titulo principal */
+
+
+.titulo_principal{
+    grid-column: 1/-1;
+    height: 550px;
+    padding: 0;
+
+    background: #00d2ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #928DAB, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #928dab9f, #00d0ff6b),url(../img/imagen5.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.frase_0{
+    grid-column: 1/-1;
+    text-align: center;
+    padding: 10px;
+    margin-top: 75px;
+    font-size: 30px;
+    color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.titulo1{
+    grid-column: 2/-1;
+    /* padding-top: 80px; */
+}
+
+
+.titulo1 h1{
+    font-size: 60px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    animation-duration: 3s;
+    animation-name: slidein; 
+
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+} 
+
+.titulo_principal p{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+
+    animation-duration: 3s;
+    animation-name: slidein;
+} 
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+.strong{
+    color: rgb(85, 85, 85);
+}
+
+/* ------------- subtitulo numero 1---------------- */
+
+
+.subtitulo1{
+    grid-column: 2/-1;
+    margin: 20px;
+}
+.subtitulo1 h2{
+
+    text-align: center;
+    padding: 10px;
+    color: rgb(77, 77, 77);
+    font-size: 40px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ------------- menu ---------------- */
+
+.menu{
+    margin: 20px;
+}
+
+img{
+    grid-column: 2/6;
+    width: 100%;
+    margin: 20px;
+}
+
+.confia_texto{
+    grid-column: 7/-1;
+}
+
+.confia_texto h3{
+    font-size: 40px;
+    text-align: left;
+    color: rgb(77, 77, 77);
+}
+
+.hr1{
+    width: 100%;
+    border: 0.5px solid;
+    font-weight: 400;
+}
+
+.confia_texto p{
+    text-align: justify;
+    padding: 20px 20px 0 0;
+    margin-right: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+img{
+    grid-column: 2/6;
+    width: 100%;
+    margin: 20px;
+}
+
+.asesoria{
+    grid-column: 7/-1;
+}
+
+.asesoria h3{
+    font-size: 40px;
+    text-align: left;
+    color: rgb(77, 77, 77);
+}
+
+.hr2{
+    width: 100%;
+    border: 0.5px solid;
+    font-weight: 400;
+}
+
+.asesoria p{
+    text-align: justify;
+    padding: 20px 20px 0 0;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+button{
+    margin: 20px;
+    padding: 10px;
+    border-color: rgb(116, 182, 235);
+    background: white;
+    color: gb(116, 182, 235);
+}
+
+
+/* ---------- frase ---------- */
+
+.frase{
+    background-color: rgb(241, 241, 241);
+}
+
+.imgN{
+    grid-column: 3/5;
+    width: 100%;
+}
+
+.imgna{
+    border-radius: 50%;
+}
+
+.texto_frase{
+    grid-column: 5/-1;
+}
+
+.texto_frase p{
+    font-size: 20px;
+    color: rgb(187, 187, 187);
+    padding: 20px;
+    margin: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* --------- Asesoria Financiera-------- */
+
+.AF{
+    background-color: rgb(121, 166, 209);
+}
+
+.titulo2{
+    grid-column: 2/-1;
+}
+
+.titulo2 h2{
+    margin: 40px auto 30px 0;
+    color: rgb(74, 83, 92);
+    padding-left: 35px;
+    font-size: 40px;
+    text-align: left;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.a{
+    grid-column: 2/7;
+    padding: 10px;
+    font-size: 15px;
+    margin: 30px;
+    text-align: justify;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.a h3{
+    font-size: 20px;
+    color: rgb(74, 83, 92);
+}
+
+.a p{
+    padding-top: 10px;
+}
+
+/* b */
+
+.b{
+    grid-column: 7/12;
+    padding: 10px;
+    font-size: 15px;
+    margin: 30px;
+    text-align: justify;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.b h3{
+    font-size: 20px;
+    color: rgb(74, 83, 92);
+}
+
+.b p{
+    padding-top: 10px;
+}
+
+
+/* c */
+
+.c{
+    grid-column: 2/7;
+    padding: 10px;
+    font-size: 15px;
+    margin: 30px;
+    text-align: justify;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.c h3{
+    font-size: 20px;
+    color: rgb(74, 83, 92);
+}
+
+.c p{
+    padding-top: 10px;
+}
+
+
+/*  d */
+
+.d{
+    grid-column: 7/12;
+    padding: 10px;
+    font-size: 15px;
+    margin: 30px;
+    text-align: justify;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.d h3{
+    font-size: 20px;
+    color: rgb(74, 83, 92);
+}
+
+.d p{
+    padding-top: 10px;
+}
+
+
+
+/*  frase final */
+
+.frasefinal{
+    background-color: rgb(61, 61, 61);
+}
+
+
+.final{
+    grid-column: 2/10;
+}
+
+.final h2{
+    color: white;
+    margin: 30px 0 30px 0;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.postulacion{
+    grid-column: 10/12;
+}
+
+.boton{
+    margin: 40px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(0, 125, 197);
+}
+
+.postilacion .boton:hover{
+    background-color: #e2f798;
+}
+
+.postulacion2{
+    grid-column: 10/12;
+}
+
+.boton5{
+    margin: 0 auto 30px 40px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(0, 125, 197);
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+.postilacion2 .boton:hover{
+    background-color: #e2f798;
+}
+
+
+
+}
+
